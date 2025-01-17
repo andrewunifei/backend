@@ -1,0 +1,21 @@
+services:
+  server:
+    build: .
+    depends_on:
+      - sqlite
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./sqlite:/data/sqlite_db
+    environment:
+      SQLITE_URL: sqlite:////data/sqlite_db/filmes.db
+    command: [sh, -cx, "python3 main.py"]
+  sqlite:
+    image: keinos/sqlite3:latest
+    working_dir: /db
+    hostname: sqlite.wattio
+    ports:
+      - "8191:8191"
+    volumes:
+      - ./sqlite:/db
+    command: [sh, -cx, "tail -f /dev/null"]
