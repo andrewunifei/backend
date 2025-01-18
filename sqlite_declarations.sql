@@ -1,0 +1,6 @@
+CREATE TABLE filmes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    ano INTEGER NOT NULL,
+    diretor TEXT NOT NULL
+);
