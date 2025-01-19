@@ -11,7 +11,7 @@ O daemon do Docker precisa estar executando em segundo plano.
 1. Clone o repositório e acesse a pasta da aplicação
 
 ```
-git clone git@github.com:andrewunifei/backend.git
+git clone --branch feature/andrew git@github.com:andrewunifei/backend.git
 cd backend
 ```
 
