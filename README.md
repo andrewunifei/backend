@@ -35,7 +35,7 @@ Exemplos:
 
 Corpo da resposta:
 
-```
+```JSON
 [
     {
         "id": 1,
@@ -50,7 +50,7 @@ Corpo da resposta:
 
 Corpo da resposta:
 
-```
+```JSON
 {
     "id": 1,
     "nome": "Pulp Fiction",
@@ -63,7 +63,7 @@ Corpo da resposta:
 
 Corpo da requisição:
 
-```
+```JSON
 {
     "nome": "Pulp Fiction",
     "ano": 1995,
@@ -73,7 +73,7 @@ Corpo da requisição:
 
 Corpo da resposta:
 
-```
+```JSON
 {
     "id": 1,
     "nome": "Pulp Fiction",
