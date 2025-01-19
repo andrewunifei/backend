@@ -31,7 +31,7 @@ O banco de dados vem apenas com a tabela filmes e ela está vazia. É necessári
 
 Exemplos:
 
-- ```GET /filmes```
+#### ```GET /filmes```
 
 Corpo da resposta:
 
@@ -46,7 +46,7 @@ Corpo da resposta:
 ]
 ```
 
-- ```GET /filmes/{id}```
+#### ```GET /filmes/{id}```
 
 Corpo da resposta:
 
@@ -59,7 +59,7 @@ Corpo da resposta:
 }
 ```
 
-- ```POST /filmes```
+#### ```POST /filmes```
 
 Corpo da requisição:
 
