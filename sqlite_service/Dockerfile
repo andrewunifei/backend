@@ -1,1 +1,3 @@
-FROM alpine/sqlite:latest
+FROM alpine:latest
+RUN apk update && apk add sqlite
+WORKDIR /db

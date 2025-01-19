@@ -7,7 +7,7 @@ services:
       - "8191:8191"
     volumes:
       - ./sqlite:/db
-    command: [database_filmes.db, "CREATE TABLE IF NOT EXISTS filmes (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT NOT NULL, ano INTEGER NOT NULL, diretor TEXT NOT NULL);"]
+    command: [sqlite3, "database_filmes.db", "CREATE TABLE IF NOT EXISTS filmes (id INTEGER PRIMARY KEY AUTOINCREMENT, nome TEXT NOT NULL, ano INTEGER NOT NULL, diretor TEXT NOT NULL);"]
   server:
     build: 
       context: .
