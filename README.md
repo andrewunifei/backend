@@ -1,6 +1,6 @@
 # Desafio Wattio
 
-Implementação da atividade sugerida para a vaga de estágio back-end n Wattio.
+Implementação da atividade sugerida para a vaga de estágio back-end na Wattio.
 
 ## Pré-requisitos
 
